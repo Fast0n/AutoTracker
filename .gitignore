@@ -1,0 +1,9 @@
+__pycache__/
+env/
+.vscode/*
+.env
+config.py
+data.json
+data_info/*
+poetry.lock
+graph.png

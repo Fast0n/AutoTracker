@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "AutoTracker"
+version = "0.1.0"
+description = ""
+authors = ["Massimiliano Montaleone <massimilianomontaleone@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pid = "^3.0.4"
+python-telegram-bot = "^13.14"
+matplotlib = "^3.6.2"
+seaborn = "^0.12.1"
+pandas = "^1.5.1"
+python-dateutil = "^2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
